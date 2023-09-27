@@ -6,7 +6,7 @@
 
 #container::before,
 #container::after {
-  content: "SPECIAL";
+  /*content: "SPECIAL";*/
   color: #f00;
   font-size: 20px;
   position: absolute;
