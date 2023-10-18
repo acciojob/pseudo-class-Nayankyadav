@@ -1,23 +1,16 @@
 /*  your css code here. If applicable */
+
 #container {
-  margin: 20px;
-  position: relative;
-}
+    margin: 20px;
+  }
+  #container:before {
+    content: "Before Element";
+    font-size: 20px;
+    color: #f00;
+  }
+  #container:after {
+    content: "After Element";
+    font-size: 20px;
+    color: #f00;
+  }
 
-#container::before,
-#container::after {
-  /*content: "SPECIAL";*/
-  color: #f00;
-  font-size: 20px;
-  position: absolute;
-}
-
-#container::before {
-  left: -60px; /* Adjust as needed for your desired spacing */
-  top: 0;
-}
-
-#container::after {
-  right: -60px; /* Adjust as needed for your desired spacing */
-  top: 0;
-}
